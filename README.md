@@ -35,7 +35,7 @@ Here are a few of my top GitHub repositories:
 
 ## 📫 Let's Connect
 
-- 📧 aniyah.hall@example.com *(replace with your real email)*
+- 📧 aniyahhall1231@gmail.com
 - 💼 [LinkedIn](https://linkedin.com/in/your-profile) *(add your profile link)*
 - 🧠 [My Portfolio Website](https://your-portfolio-link.com)
 
