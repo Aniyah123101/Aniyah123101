@@ -2,31 +2,45 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Contact | Aniyah Hall</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
   <header>
-    <nav class="navbar">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
-      </ul>
-    </nav>
+    <h1>Contact Us</h1>
   </header>
 
-  <main class="content">
-    <h1>Contact</h1>
-    <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourusername" target="_blank">linkedin.com/in/yourusername</a></p>
-  </main>
+  <div class="content">
+    <h2>We’d love to hear from you!</h2>
+
+    <!-- Contact Information -->
+    <div class="contact-info">
+      <p>If you have any questions or comments, feel free to reach out to us:</p>
+      <p><strong>Phone Number:</strong> 443-608-1082</p>
+      <p><strong>Email:</strong> <a href="mailto:aniyahhall1231@gmail.com">aniyahhall1231@gmail.com</a></p>
+    </div>
+
+    <!-- Contact Form -->
+    <h3>Send us a message</h3>
+    <form action="submit_form.php" method="POST">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required placeholder="Enter your email address">
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" required placeholder="Enter your message here" rows="5"></textarea>
+
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </div>
 
   <footer>
-    <p>© 2025 Aniyah Hall</p>
+    <p>&copy; 2025 Aniyah Hall. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
