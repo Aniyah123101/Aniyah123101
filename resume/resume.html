@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume | Aniyah Hall</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="resume.html" class="active">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h1>Resume</h1>
+    <p>Download my resume: <a href="resume/Aniyah_Hall_Resume.docx" target="_blank">Aniyah_Hall_Resume.pdf</a></p>
+
+    <!-- Resume Preview -->
+    <section class="resume-preview">
+      <h2>Resume Preview</h2>
+      <iframe src="resume/Aniyah_Hall_Resume.docx" title="Resume Preview"></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Aniyah Hall. All rights reserved.</p>
+  </footer>
+
+  <!-- Dialogflow Messenger Chatbot -->
+  <df-messenger
+    intent="WELCOME"
+    chat-title="PortfolioBot"
+    agent-id="c8dff6dc-a279-4cf2-8f02-7dcf5af1fdec"
+    language-code="en"
+  ></df-messenger>
+
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+</body>
+</html>

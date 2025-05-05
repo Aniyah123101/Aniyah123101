@@ -1,5 +1,6 @@
 /* Reset some default styles */
 * {
+<<<<<<< HEAD
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -152,3 +153,110 @@ footer {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
+=======
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body style */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center; /* Center all text */
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #4CAF50;
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    background-color: #4CAF50;
+    padding: 15px 0;
+    margin-bottom: 30px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar li {
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Headshot Image */
+  .headshot {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Home page introduction */
+  .home-intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .home-intro p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Button */
+  .btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* General content section */
+  .content {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+>>>>>>> 9ef9d69 (centered text)
