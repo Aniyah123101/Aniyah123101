@@ -250,6 +250,35 @@ footer {
     text-align: center;
   }
   
+  /* Projects Section */
+.centered {
+    text-align: center;
+  }
+  
+  .project {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .project img:hover {
+    transform: scale(1.05);
+  }
+  
+  .project h2 {
+    margin-top: 10px;
+    font-size: 1.4rem;
+  }
+  
   /* Footer */
   footer {
     background-color: #4CAF50;
