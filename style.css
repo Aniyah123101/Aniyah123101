@@ -166,6 +166,7 @@ footer {
     color: #333;
     text-align: center; /* Center all text */
     padding: 20px;
+    padding-top: 80px; /* Adds space between header and body content */
   }
   
   /* Header */
@@ -173,6 +174,7 @@ footer {
     background-color: #4CAF50;
     padding: 15px 0;
     text-align: center;
+    margin-bottom: 40px; /* Adds space below header */
   }
   
   /* Navigation Bar */
@@ -257,6 +259,7 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    margin-top: 40px; /* Adds space between footer and content */
   }
   
 >>>>>>> 9ef9d69 (centered text)
