@@ -2,8 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Aniyah Hall | Home</title>
+  <title>Aniyah Hall | Cybersecurity & Health Tech Enthusiast</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Chatbot styling */
+    #chatbot {
+      width: 100%;
+      max-width: 600px;
+      margin: 20px auto;
+      background: #f0f0f0;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      color: #333;
+    }
+
+    /* QR Code styling */
+    .qr-code {
+      text-align: center;
+      margin: 40px auto;
+    }
+    .qr-code img {
+      width: 200px;
+      border: 2px solid #ccc;
+      border-radius: 12px;
+      padding: 10px;
+      background-color: #fff;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -20,15 +50,35 @@
     </nav>
   </header>
 
-  <main class="home-intro">
+  <main class="home-section">
     <img src="headshot.jpg" alt="Aniyah Hall Headshot" class="headshot">
-    <h1>Hello, I'm Aniyah</h1>
-    <p>Cybersecurity & Health Tech Enthusiast</p>
-    <a href="projects.html" class="btn">View My Work</a>
+    <h1>Hello, I'm <span class="highlight">Aniyah</span></h1>
+    <p class="tagline">Cybersecurity & Health Tech Enthusiast</p>
+    <a href="projects.html" class="button">View My Work</a>
   </main>
 
+  <!-- Chatbot Section -->
+  <section id="chatbot">
+    <h2>Ask Me Anything!</h2>
+    <df-messenger
+      intent="WELCOME"
+      chat-title="PortfolioBot"
+      agent-id="c8dff6dc-a279-4cf2-8f02-7dcf5af1fdec"
+      language-code="en"
+    ></df-messenger>
+  </section>
+
+  <!-- QR Code Section -->
+  <section class="qr-code">
+    <h2>Scan to Visit My Portfolio</h2>
+    <img src="images/qrcode.png" alt="QR Code to Aniyah Hall's portfolio">
+  </section>
+
   <footer>
-    <p>© 2025 Aniyah Hall</p>
+    <p>© 2025 Aniyah Hall. All rights reserved.</p>
   </footer>
+
+  <!-- Dialogflow Messenger Script -->
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 </body>
 </html>
