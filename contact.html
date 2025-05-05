@@ -2,45 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Contact | Aniyah Hall</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <header>
-    <h1>Contact Us</h1>
-  </header>
+  <div class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </div>
 
   <div class="content">
-    <h2>We’d love to hear from you!</h2>
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out with any questions or opportunities.</p>
+    <p><strong>Email:</strong> <a href="mailto:aniyahhall1231@gmail.com">aniyahhall1231@gmail.com</a></p>
+    <p><strong>Phone:</strong> <a href="tel:4436081082">443-608-1082</a></p>
 
-    <!-- Contact Information -->
-    <div class="contact-info">
-      <p>If you have any questions or comments, feel free to reach out to us:</p>
-      <p><strong>Phone Number:</strong> 443-608-1082</p>
-      <p><strong>Email:</strong> <a href="mailto:aniyahhall1231@gmail.com">aniyahhall1231@gmail.com</a></p>
-    </div>
-
-    <!-- Contact Form -->
-    <h3>Send us a message</h3>
-    <form action="submit_form.php" method="POST">
-      <label for="name">Your Name:</label>
-      <input type="text" id="name" name="name" required placeholder="Enter your name">
-
-      <label for="email">Your Email:</label>
-      <input type="email" id="email" name="email" required placeholder="Enter your email address">
-
-      <label for="message">Your Message:</label>
-      <textarea id="message" name="message" required placeholder="Enter your message here" rows="5"></textarea>
-
-      <button type="submit" class="btn">Send Message</button>
-    </form>
+    <form action="https://formspree.io/f/mzzrrvjz" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required><br>
+        <input type="email" name="email" placeholder="Your Email" required><br>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea><br>
+        <button type="submit" class="btn">Send</button>
+      </form>      
   </div>
 
   <footer>
-    <p>&copy; 2025 Aniyah Hall. All rights reserved.</p>
+    <p>© 2025 Aniyah Hall</p>
   </footer>
-
 </body>
 </html>
