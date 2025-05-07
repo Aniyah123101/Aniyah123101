@@ -7,7 +7,8 @@
 
 /* Body style */
 body {
-  font-family: Arial, sans-serif;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
   color: #333;
   text-align: center;
@@ -20,7 +21,7 @@ header {
   background-color: #4CAF50;
   padding: 15px 0;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 40px; /* Adds space below header */
 }
 
 /* Navigation Bar */
@@ -150,4 +151,24 @@ footer {
   border: none;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+}
+
+/* QR Code Section */
+.qr-code {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.qr-code p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.qr-code img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
