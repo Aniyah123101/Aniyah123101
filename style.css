@@ -13,6 +13,7 @@ body {
   text-align: center;
   padding: 20px;
   padding-top: 80px;
+  line-height: 1.7; /* Spacing between lines */
 }
 
 /* Header */
@@ -66,7 +67,7 @@ header {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Home page intro */
+/* Home intro */
 .home-intro h1 {
   font-size: 2.5rem;
   margin-bottom: 10px;
@@ -98,8 +99,13 @@ header {
 .content {
   max-width: 800px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
+}
+
+/* Section spacing */
+section {
+  margin-bottom: 40px;
 }
 
 /* Projects Section */
@@ -173,7 +179,7 @@ form button:hover {
 
 /* QR Code */
 .qr-code {
-  margin-top: 30px;
+  margin-top: 40px;
   text-align: center;
 }
 
