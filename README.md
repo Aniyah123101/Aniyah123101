@@ -1,45 +1,59 @@
-# 👋 Hi, I'm Aniyah Hall
+# 🌐 Aniyah Hall | Personal Portfolio Website
 
-🎓 Computer Technology Graduate | 💻 Cybersecurity & Health Tech Enthusiast | 💅 Nail Technician
-
----
-
-I'm a recent graduate from Bowie State University with a strong passion for cybersecurity, data protection, and innovative tech in healthcare. I'm currently working on research that integrates **machine learning** and **cryptography** for securing IoT networks. Outside of tech, I'm also a certified nail technician and budding entrepreneur.
+Welcome to my interactive **personal portfolio website**, built to showcase my work in **cybersecurity**, **health technology**, and **machine learning**. This site serves as a hub for my academic and professional journey, including a resume preview, GitHub project links, and a chatbot that answers FAQs.
 
 ---
 
-## 🔧 Tech Stack & Skills
+## 👩‍💻 About Me
 
-- **Languages**: Python, Java, HTML/CSS
-- **Tools & Platforms**: Git, GitHub, VMware, Wireshark
-- **Focus Areas**: 
-  - Cybersecurity & Cryptography  
-  - IoT Healthcare Systems  
-  - AI & Machine Learning for Threat Detection  
-  - Ethical Hacking & Network Monitoring
+I'm a recent graduate from **Bowie State University** with a B.S. in **Computer Technology – Health Tech & Cybersecurity**. I'm passionate about protecting sensitive healthcare data through AI and cryptographic systems, and I've led research projects in IoT security, ransomware detection, and Zero Trust models.
+
+---
+
+## 🧠 Website Features
+
+- ✅ Responsive design using **HTML**, **CSS**, and **JavaScript**
+- 🤖 **Dialogflow chatbot** answering questions about my background and projects
+- 📎 Embedded and downloadable **PDF resume**
+- 📂 Project links to **GitHub repositories**
+- 📱 **QR Code** for mobile access
+- 💬 Contact form with email and phone details
 
 ---
 
 ## 📌 Featured Projects
 
-Here are a few of my top GitHub repositories:
+- 🔐 [`ransomware-detection-ml`](https://github.com/Aniyah123101/ransomware-detection-ml)  
+  Detect ransomware using supervised ML algorithms like Random Forest, Logistic Regression, and KNN.
 
-- 🔐 `ransomware-detection-ml`: Machine learning models to detect ransomware (Random Forest, SVM, Naive Bayes, etc.)
-- 📡 `iot-healthcare-encryption`: Secure IoT data transmission using MQTT and cryptographic methods.
-- 🧠 `deepfake-detector-tiktok`: AI-powered proposal for detecting deepfakes on social media platforms.
+- 📡 [`iot-healthcare-encryption`](https://github.com/Aniyah123101/iot-healthcare-encryption)  
+  Simulates secure data transmission in an IoT network using MQTT and Fernet encryption.
 
-(Scroll down and check my pinned repos for more!)
+- 🧠 [`zero-trust-ransomware`](https://github.com/Aniyah123101/zero-trust-ransomware)  
+  Combines Zero Trust Architecture with machine learning to detect and block ransomware.
 
-
----
-
-## 📫 Let's Connect
-
-- 📧 aniyahhall1231@gmail.com
-- 💼 [LinkedIn](https://linkedin.com/in/your-profile) *(add your profile link)*
-- 🧠 [My Portfolio Website](https://your-portfolio-link.com)
+- 🌐 [`Personal-Portfolio`](https://github.com/Aniyah123101/Personal-Portfolio) *(this repo)*  
+  A live, interactive portfolio featuring all of the above with chatbot, QR code, and resume.
 
 ---
 
+## 🚀 Live Website
 
+🔗 [View My Portfolio](https://aniyah123101.github.io/Personal-Portfolio)
 
+📱 Scan the QR code on the homepage to visit it from your phone.
+
+---
+
+## 📫 Contact Me
+
+- 📧 Email: aniyahhall1231@gmail.com  
+- 📞 Phone: 443-608-1082  
+
+---
+
+## 🛠️ Tech Stack
+
+- Languages: HTML, CSS, Python, Java  
+- Tools: Git, GitHub, Dialogflow, Wireshark, Splunk  
+- Concepts: IoT Security, Machine Learning, Cryptography, Zero Trust  
